@@ -14,6 +14,7 @@ Design and verification of a **4-input Round Robin Arbiter** implemented in Veri
 
 ### Sample Test Sequence:
 verilog
+
 insert(4'b0010);     // req[2]
 
 repeat(3) insert(4'b1001); // s4 active
